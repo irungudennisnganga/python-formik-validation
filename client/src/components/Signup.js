@@ -28,7 +28,7 @@ export const SignupForm = () => {
       .typeError("Please enter an Integer")
       .max(125),
   });
-
+                                                                                                                                                                                
   const formik = useFormik({
     initialValues: {
       name: "",
